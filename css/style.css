@@ -1,6 +1,6 @@
 * {
   font-family: Spectral;
-  font-size: 16px;
+  font-size: 15px;
   color: hsl(4, 0%, 28%);
 }
 
@@ -9,9 +9,16 @@ body {
 }
 
 main {
-  text-align: center;
   margin: 0 auto;
   max-width: 768px;
+}
+
+.song-list {
+  text-align: center;
+}
+
+.song {
+  text-align: left;
 }
 
 h1 {
@@ -24,9 +31,17 @@ h1 {
   font-size: 0.9rem;
   margin-bottom: 2rem;
   line-height: 1.5;
+  text-align: left;
 }
 
 a {
   font-size: 1.5rem;
   color: inherit;
+  display: block;
+  margin-bottom: 1.2rem;
+}
+
+.chords {
+  color: blue;
+  font-weight: 700;
 }
