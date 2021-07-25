@@ -1,0 +1,18 @@
+* {
+  font-family: Spectral;
+}
+
+body {
+  padding: 3rem;
+}
+
+main {
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
